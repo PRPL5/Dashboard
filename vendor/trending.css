@@ -1,1 +1,43 @@
+.trend-area{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 240px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: start;
+    
 
+}
+
+.t-icon{
+    width: 52px;
+    height: 52px;
+    margin-right: 15px;
+
+}
+
+.t-person{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.t-p-layout{
+    display: flex;
+    flex-direction: column;
+    place-self: center center;
+}
+
+.mention{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom:5px ;
+}
+
+.occupation{
+    font-size: 11px;
+    color: #626364;
+    
+}
